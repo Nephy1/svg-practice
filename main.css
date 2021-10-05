@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: auto;
+}
+.texture-background {
+  background-image: url(assets/backgrounds/overlapping-hexagons/overlapping-hexagons.svg);
+  background-size: cover;
+}
+section {
+  background-color: #342e3b;
+  background-image: url(assets/backgrounds/overlapping-hexagons/overlapping-hexagons.svg)}
+.pex {
+  max-width: 200px;
+  max-height: 150px;
+  transition: transform 1.5s;
+}
+.pex:hover {
+  transform: translate(30px, 20px) rotate(20deg);
+}
+p {
+  color:white;
+} 
+
+.head {
+  transition: transform .5s;
+}
+a:hover .head{
+transform: skewY(-10deg);
+}
+
